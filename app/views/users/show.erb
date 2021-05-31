@@ -1,0 +1,4 @@
+Hi <%= current_user.username %>
+<% @tweets.each do |tweet| %>
+    <%= tweet.content %>
+<% end %>
